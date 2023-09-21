@@ -33,4 +33,5 @@ fbdm = '{density=2.0,height='+subprocess.check_output('getprop ro.hwui.text_larg
 fbav = f'{random.randint(111,999)}.0.0.{random.randint(11,99)}.{random.randint(111,999)}'
 fbbv = str(random.randint(10000000, 88888888))
 ua = f'[FBAN/{fban};FBAV/{fbav};FBBV/{fbbv};[FBAN/{fban};FBAV/{fbav};FBPN/{fbpn};FBLC/en_US;FBBV/{fbbv};FBCR/{fbcr};FBMF/{fbmf};FBBD/{fbbd};FBDV/{fbdv};FBSV/7.1.2;FBCA/{fbca};FBDM/{fbdm};FB_FW/1;] FBBK/1;]' 
+print(logo)
 print(ua)
